@@ -1,0 +1,22 @@
+.top-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background: #222;
+}
+
+.top-block__content {
+    display: flex;
+    flex-direction: column;
+    gap: 244px;
+    padding: 30px 20px 50px;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+@media (max-width: 1515px) {
+    .top-block__img {
+        display: none;
+    }
+}

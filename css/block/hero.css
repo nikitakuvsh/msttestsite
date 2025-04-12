@@ -1,0 +1,60 @@
+.hero__title {
+    font-family: var(--second-family);
+    font-size: 80px;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+.hero__description {
+    font-size: 5rem;
+    line-height: 120%;
+    margin-bottom: 64px;
+}
+
+.hero__list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+
+.hero__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero__icon {
+    width: 39px;
+    height: 37px;
+}
+
+.hero__item-text {
+    font-size: 2.4rem;
+    line-height: 110%;
+}
+
+.hero__item-price { 
+    font-family: var(--second-family);
+    font-size: 4rem;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
+
+.hero__button {
+    padding: 39.5px 50px;
+    background: #ffffff;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #222;
+    transition: all 0.3s ease;
+}
+
+.hero__button:hover {
+    background: #282829;
+    color: #fff;
+}
